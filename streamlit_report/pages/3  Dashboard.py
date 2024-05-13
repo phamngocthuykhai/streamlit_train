@@ -782,7 +782,6 @@ if choice =="Bản đồ":
                     combined_under_province_df['avg_nt'] = combined_under_province_df['avg_nt'].astype('float64')
 
                     combined_under_df = pd.merge(location_df, combined_under_province_df, on='Tỉnh')
-
                     mean_latitude = combined_under_df['Vĩ độ'].mean()
                     mean_longitude = combined_under_df['Kinh độ'].mean()
 
