@@ -1,0 +1,9 @@
+streamlit_plotly_events
+streamlit_pandas_profiling
+pandas
+streamlit
+streamlit-folium
+folium
+ydata_profiling
+seaborn
+Pillow
